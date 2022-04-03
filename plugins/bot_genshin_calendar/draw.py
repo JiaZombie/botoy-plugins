@@ -6,7 +6,7 @@ from .event import *
 font_path = get_cache_dir("genshin_calendar") / "wqy-microhei.ttc"
 if not font_path.is_file():
     download(
-        "https://cdn.staticaly.com/gh/NepPure/genshin_calendar/master/wqy-microhei.ttc",
+        "https://github.com/anthonyfok/fonts-wqy-microhei/blob/master/wqy-microhei.ttc?raw=true",
         font_path,
     )
 font = ImageFont.truetype(str(font_path), 20)

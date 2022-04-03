@@ -3,3 +3,11 @@ pillow
 aiofiles
 qrcode
 pydantic
+ua_parser
+baidu-aip
+chardet
+bs4
+python-dateutil
+py-cpuinfo
+psutil
+lxml
