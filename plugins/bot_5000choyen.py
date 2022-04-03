@@ -7,7 +7,7 @@ from botoy.collection import MsgTypes
 from botoy.decorators import ignore_botself, startswith, these_msgtypes
 from botoy.sugar import Picture
 
-API = jconfig.get_jconfig("5000choyen_api") or "http://127.0.0.1:4000/api/v1/gen"
+API = jconfig.get_configuration("5000choyen_api") or "http://127.0.0.1:4000/api/v1/gen"
 
 
 def gen5000(top="", bottom="", offset=""):

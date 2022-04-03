@@ -5,7 +5,7 @@ from botoy.contrib import download, get_cache_dir
 
 
 def get_config(key, default=None):
-    return jconfig.get_jconfig(f"custom_image_{key}") or default
+    return jconfig.get_configuration(f"custom_image_{key}") or default
 
 
 FONT_MIN = 15
