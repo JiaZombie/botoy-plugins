@@ -13,6 +13,7 @@ if not data.is_file():
     download(
         "https://github.com/opq-osc/botoy-plugins/releases/download/bnhhsh%E6%95%B0%E6%8D%AE/data.pkl",
         data,
+        follow_redirects =True,
     )
 
 

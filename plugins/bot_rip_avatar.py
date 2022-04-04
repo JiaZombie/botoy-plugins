@@ -18,6 +18,7 @@ if not TEMPLATE_PATH.exists():
     download(
         "https://github.com/opq-osc/botoy-plugins/releases/download/rip.png/rip.png",
         TEMPLATE_PATH,
+        follow_redirects =True,
     )
 TEMPLATE_PATH = str(TEMPLATE_PATH)
 
