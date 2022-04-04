@@ -17,6 +17,7 @@ def download_material():
     download(
         "https://cdn.jsdelivr.net/gh/kingcos/JueJueZiGenerator@main/materials.json",
         data_path,
+        follow_redirects =True,
     )
 
 

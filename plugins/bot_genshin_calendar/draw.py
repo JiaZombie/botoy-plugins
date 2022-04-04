@@ -8,6 +8,7 @@ if not font_path.is_file():
     download(
         "https://github.com/anthonyfok/fonts-wqy-microhei/blob/master/wqy-microhei.ttc?raw=true",
         font_path,
+        follow_redirects =True,
     )
 font = ImageFont.truetype(str(font_path), 20)
 

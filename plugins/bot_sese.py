@@ -38,6 +38,7 @@ if not mp4.is_file():
     download(
         "https://cdn.jsdelivr.net/gh/opq-osc/OPQ-PHP-plugins@main/public/templates/sese/template-small.mp4",
         mp4,
+        follow_redirects =True,
     )
 
 
