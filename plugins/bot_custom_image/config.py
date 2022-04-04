@@ -32,6 +32,7 @@ if not FONT_PATH.exists():
     download(
         f"https://github.com/opq-osc/botoy-plugins/releases/download/simhei-fonts/{font_name}",
         FONT_PATH,
+        follow_redirects =True,
     )
 
 QRCODE_PATH = CACHE_PATH / "list-qr.jpg"
